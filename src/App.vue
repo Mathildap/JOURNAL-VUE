@@ -40,7 +40,6 @@ export default {
 
             if (localStorage.getItem('Posts') == null) {
                 let posts = [];
-
                 posts.push({
                     heading: event.target.heading.value,
                     pickDate: event.target.pickDate.value,
